@@ -53,7 +53,7 @@ Intelligent electronic health record system for psychiatry, designed for efficie
 - Real-time research integration via RAG  
 - Advanced analytics, dashboards, reports, and e-prescriptions  
 - Compliance and full audit trail for all clinical interactions  
-- Telemedicine integration with complete context history  
+- Telemedicine integration with complete context history
 
 ---
 
@@ -69,13 +69,15 @@ Intelligent electronic health record system for psychiatry, designed for efficie
 
 ## 💼 Professional Experience
 
-**Founder & Director, Technology & Project Solutions** — Since 2011  
+**Founder & Director, Technology & Project Solutions — Since 2011**  
+
 - Founded and coordinate Brachat, delivering multiple SaaS projects and hands-on AI systems  
 - Led conception and execution of large-scale projects totaling +R$30M, including turnkey offices and digital platforms  
 - Managed multidisciplinary teams and applied regulatory compliance and governance frameworks  
 - Oversaw P&L, risk management, and stakeholder alignment in high-value initiatives  
 
-**Compliance Analyst, Banco do Brasil** — 2007  
+**Compliance Analyst, Banco do Brasil — 2007**  
+
 - Performed compliance activities in back-office operations, reinforcing understanding of financial regulations, risk mitigation, and governance frameworks
 
 ---
@@ -83,7 +85,7 @@ Intelligent electronic health record system for psychiatry, designed for efficie
 ## 🎓 Education
 
 - Notarial Services Degree — Graduated  
-- Law Studies — Completed 8 semesters (focus on regulation & governance)  
+- Law Studies — Completed 8 semesters (focus on regulation & governance)
 
 ---
 
@@ -99,7 +101,7 @@ Intelligent electronic health record system for psychiatry, designed for efficie
 
 - **Email:** fabio@brachat.com.br  
 - **LinkedIn:** [linkedin.com/in/fabio-everton-3b62b1129](https://www.linkedin.com/in/fabio-everton-3b62b1129)  
-- **GitHub / Portfolio:** [fabiobeverton](https://github.com/fabiobeverton)
+- **GitHub / Portfolio:** [fabiobeverton](https://fabiobeverton.github.io/)
 
 ---
 
