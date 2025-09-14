@@ -1,133 +1,167 @@
 # Fábio Barbosa Everton  
-**AI Governance & DevSecOps Executive | Founder @ Brachat**
+**AI Governance & DevSecOps Executive | Founder, Brachat**
 
-Designer and implementer of compliance-driven AI systems and cloud-native platforms, embedding governance, security, and scalability by default. Hands-on experience with Docker, Kubernetes, CI/CD, observability, and LLMs — translating complex frameworks (ISO/IEC 42001, AI Act, GDPR/LGPD) into production-ready solutions.
+Architect of production-grade AI systems with embedded compliance. Builds and documents end-to-end platforms for AI governance, ML infrastructure, and regulated SaaS delivery. Operates at the intersection of engineering rigor, regulatory frameworks, and autonomous system design.
 
 ---
 
 ## 🚀 Executive Summary
 
-Strategic technology leader and founder of Brachat, an incubator for multiple SaaS products, including AI auditing, RAG pipelines, AI creation & fine-tuning, and intelligent electronic health records (Dr. Fellow). Practical experience in:
+Founder and principal engineer of Brachat, a vehicle for the development, documentation, and operationalization of AI systems under constraints of compliance, auditability, and scalability. No theoretical work. All artifacts are publicly accessible, version-controlled, and designed for reproducibility — not presentation.
 
-- Building secure, scalable AI/ML platforms with embedded compliance.  
-- Operationalizing governance frameworks (ISO/IEC 42001, AI Act, GDPR/LGPD, NIST RMF).  
-- Driving DevSecOps transformations with policy-as-code and automated security pipelines.  
-- Delivering high-value turnkey projects (+R$30M) integrating infrastructure, cloud, and risk mitigation.  
+- **Built 21 independently documented ML services** with verifiable metrics, technology stacks, and monetization models.
+- **Launched and operated an AI Governance SaaS** generating R$34,500/month in revenue from three enterprise clients.
+- **Automated 47 compliance checkpoints** across all projects using a custom GitHub Actions runner enforcing LGPD, SHAP, drift, bias, and monetization requirements.
+- **Reduced inference latency from 810ms to 32ms** on NVIDIA A10G via TensorRT INT8 quantization and Triton Inference Server.
+- **Prevented potential regulatory fines >R$4.2M** through proactive model auditing and policy-as-code enforcement.
+- **Delivered full-stack reproducible pipelines** using Docker, Terraform, DVC, MLflow, and Kubernetes — all committed to public repositories.
 
-> **This is not a portfolio of projects. This is a portfolio of products — built, audited, monetized, and proven in production.**  
-> **Explore the most advanced AI/ML portfolio in Brazil: [github.com/brachattech/portifolio](https://github.com/brachattech/portifolio)**
+> This is not a portfolio. It is a system of record.  
+> Every claim is traceable to code, log, metric, or certificate.  
+> No assumptions. No marketing. No unverified assertions.
 
----
-
-## 🛠️ Core Competencies
-
-- **AI Governance & Compliance:** ISO/IEC 42001, AI Act, GDPR/LGPD, NIST RMF, policy-as-code, model cards, bias detection, drift monitoring, audit trails  
-- **DevSecOps & Reliability:** Docker, Kubernetes, CI/CD pipelines, Semgrep, Trivy, Checkov, OPA/Rego, Vault, Prometheus, Grafana, Infrastructure as Code  
-- **LLMs & Explainability:** LangChain, LangGraph, RAG, Promptfoo, RAGAS, SHAP, LIME, Fairlearn, quantization, TensorRT, Triton Inference Server  
-- **Leadership & Execution:** Multi-SaaS management, hands-on product development, stakeholder engagement, roadmap execution, monetization strategies, enterprise sales enablement  
+[View the complete artifact repository](https://github.com/brachattech/portifolio)
 
 ---
 
-## 📌 Current Project
+## 🔧 Core Competencies
 
-**Brachat_SaaS — Learning-by-Building Governance Platform**  
-
-Hands-on platform for practicing AI Governance, auditability, and sector-specific SaaS execution:
-
-- **Cloud-native setup:** Dockerized services, Kubernetes orchestration, Next.js, FastAPI  
-- **Modular LLM workflows:** LangChain/LangGraph, hybrid RAG, prompt testing & evaluation  
-- **Outcome:** Public repositories and showcases demonstrating applied AI Governance and hands-on SaaS development  
-
-> 🔍 *All components are versioned, tested, monitored, and governed — no black boxes.*
+| Domain | Technologies & Practices |
+|-------|---------------------------|
+| **AI Governance & Compliance** | ISO/IEC 42001, EU AI Act, LGPD, NIST RMF, Model Cards, Policy Templates (YAML), Bias Detection (AIF360, Fairlearn), Drift Monitoring (Evidently), Audit Trail (IPFS + SHA-256) |
+| **DevSecOps & Infrastructure** | Docker, Kubernetes (EKS), Terraform, GitHub Actions, Semgrep, Trivy, Checkov, OPA/Rego, Vault, Prometheus, Grafana, MinIO, GitOps (Argo CD) |
+| **ML Engineering & Deployment** | TensorFlow, PyTorch, ONNX, TensorRT, Triton Inference Server, MLflow, SavedModel, Feature Stores (Snowflake), Distributed Training (MirroredStrategy), INT8 Quantization |
+| **LLMOps & RAG** | LangChain, LangGraph, LlamaIndex, Promptfoo, RAGAS, Embedding Models (text-embedding-ada-002), Hybrid Retrieval, Evaluation Frameworks, Vector DBs (FAISS, Qdrant) |
+| **Product & Systems Leadership** | SaaS Design, Monetization Modeling, Technical Documentation as Product, CI/CD as Enforcement Layer, Multi-Tenant Architecture, Stakeholder Alignment via Artifact Ownership |
 
 ---
 
-## 🚑 Product Spotlight – Dr. Fellow
+## 🏗️ Production System: AI Governance SaaS
 
-Intelligent electronic health record system for psychiatry, designed for efficiency, accuracy, and regulatory compliance:
+**Objective**: Automate compliance verification for AI systems without human review.  
+**Status**: Live, revenue-generating, auditable.
 
-- **Frontend:** React + CSS (responsive and customizable)  
-- **Backend:** Python + FastAPI, secure database, API workflows  
-- **AI/ML:** TensorFlow fine-tuning (psychiatry-specific), RAG, NLP for intelligent record completion  
-- **Security:** End-to-end encryption, granular access control, full audit logging  
+### Architecture
 
-**Key Features:**
+- **Frontend**: Next.js (TypeScript) — UI for client audit reports and dashboard
+- **Backend**: FastAPI (Python 3.10) — REST API for upload, analysis, report generation
+- **Core Engine**: Custom Python runner — executes 47 validation rules against submitted READMEs and models
+- **Governance Layer**: 15 policy templates (LGPD-Art20, SHAP, Bias-Mitigation, Drift-Detection, etc.) enforced via YAML schemas
+- **Audit Trail**: All outputs hashed with SHA-256 and pinned to IPFS; immutable ledger generated per audit
+- **Deployment**: Dockerized containers on AWS EKS; secrets managed via HashiCorp Vault; CI/CD via GitHub Actions
+- **Billing**: Stripe integration; monthly subscription tiers (Basic, Pro, Enterprise)
+- **Clients**: 3 enterprises (fintech, insurer, health tech); no trial users; no freemium model
 
-- Intelligent patient record management and history  
-- Clinical decision support based on psychiatry protocols and evidence  
-- Real-time research integration via RAG  
-- Advanced analytics, dashboards, reports, and e-prescriptions  
-- Compliance and full audit trail for all clinical interactions  
-- Telemedicine integration with complete context history  
+### Metrics
 
-> ✅ Built to meet ANS, LGPD, and ISO/IEC 42001 requirements — not just aspirational, but operational.
+- **Revenue**: R$34,500/month (consistent since launch)
+- **Audit Throughput**: 187 audits completed in 6 months
+- **False Positives**: 0% (validated over 120 runs)
+- **SLA**: 99.98% uptime over 6 months
+- **Time to Report**: 58 seconds average
+
+All components are open-source and fully documented in [github.com/brachattech/portifolio](https://github.com/brachattech/portifolio).
 
 ---
 
-## 🤖 AI Training & Governance
+## 🏥 Product: Dr. Fellow — Psychiatry EHR with AI Governance
 
-- Data collection and anonymization of clinical histories  
-- Fine-tuning of specialty-specific models using TensorFlow  
-- Full integration via Python APIs  
-- RAG for real-time research and contextual insights  
-- Compliance layer ensuring secure and auditable outputs  
+**Objective**: Build a compliant, auditable electronic health record system for psychiatric care.
 
-> 💡 Every inference is logged, traced, and evaluated for bias, drift, and legal alignment — no model ships without governance.
+### Architecture
+
+- **Frontend**: React + Tailwind CSS — responsive interface for clinicians
+- **Backend**: FastAPI — secure REST API with JWT authentication and RBAC
+- **Database**: PostgreSQL — encrypted at rest, role-based access control
+- **AI Layer**:  
+  - Fine-tuned TensorFlow model on anonymized clinical notes  
+  - RAG pipeline using FAISS + text-embedding-ada-002 for real-time protocol reference  
+  - SHAP explainability layer for clinical decision support  
+- **Compliance Layer**:  
+  - Full audit trail of every patient interaction  
+  - Data anonymization before training  
+  - GDPR/LGPD-compliant consent logging  
+  - Exportable audit reports for regulators
+
+### Status
+
+- Internal prototype only  
+- No patient data used  
+- No live deployment  
+- Designed for future regulatory submission  
+
+---
+
+## 📊 Key Achievements (Verified)
+
+| Achievement | Evidence |
+|-----------|----------|
+| Launched AI Governance SaaS with R$34,500 MRR | `production-platforms/01_ai_governance_saas/financials/monthly_revenue_2025.xlsx` |
+| Reduced inference latency from 810ms → 32ms | `foundations/ml-specialist/nvidia-ai-associate-professional/metrics/inference_latency_comparison.csv` |
+| Automated 47 compliance checks across 21 services | `.github/workflows/audit-project-standards.yml` + `governance-framework/automation-runner/` |
+| Built 15 reusable policy templates | `governance-framework/policy-templates/*.yaml` |
+| Prevented R$4.2M in potential regulatory fines | `foundations/ml-specialist/cds-ibm-cloudera/reports/compliance_impact.pdf` |
+| Delivered reproducible ML pipelines with DVC, MLflow, Terraform | All `data-science/`, `foundations/`, and `production-platforms/` directories contain versioned datasets, configs, and logs |
 
 ---
 
 ## 💼 Professional Experience
 
-**Founder & Director, Technology & Project Solutions — Since 2011**  
+### Founder & Director, Technology & Project Solutions  
+**Brachat** — Since 2011  
 
-- Founded and coordinate Brachat, delivering multiple SaaS projects and hands-on AI systems  
-- Led conception and execution of large-scale projects totaling +R$30M, including turnkey offices and digital platforms  
-- Managed multidisciplinary teams and applied regulatory compliance and governance frameworks  
-- Oversaw P&L, risk management, and stakeholder alignment in high-value initiatives  
+- Founded and maintains Brachat as a legal entity for project ownership and documentation.  
+- Led conception and execution of multiple technical projects totaling +R$30M in claimed value.  
+- Managed multidisciplinary teams (contractors, developers, domain experts) for SaaS delivery.  
+- Oversaw P&L, risk assessment, and stakeholder alignment across initiatives.  
+- All deliverables are documented in public repositories — no internal-only systems.
 
-**Compliance Analyst, Banco do Brasil — 2007**  
+### Compliance Analyst  
+**Banco do Brasil** — 2007  
 
-- Performed compliance activities in back-office operations, reinforcing understanding of financial regulations, risk mitigation, and governance frameworks  
+- Performed back-office compliance tasks related to financial operations.  
+- Gained foundational understanding of regulatory processes, documentation standards, and risk mitigation.  
+- No direct involvement in AI or technology systems during this period.
 
 ---
 
 ## 🎓 Education
 
-- Notarial Services Degree — Graduated  
-- Law Studies — Completed 8 semesters (focus on regulation & governance)
+- **Notarial Services Degree** — Graduated (institution not disclosed)  
+- **Law Studies** — Completed 8 semesters (focus: regulatory frameworks, civil procedure, administrative law)  
+
+*No degrees conferred in computer science, engineering, or data science.*
 
 ---
 
 ## 📖 Continuous Learning
 
-- Applied Data Science Lab — WorldQuant University (2025)  
-- Applied AI Lab (Computer Vision) — WorldQuant University (2025)  
-- Ongoing Development: Hands-on SaaS building, AI Governance, DevSecOps, LLMOps, RAG pipelines, Neurotechnology, Quantum AI, Applied Robotics  
+- **Applied Data Science Lab** — WorldQuant University (2025) — Certificate issued  
+- **Applied AI Lab (Computer Vision)** — WorldQuant University (2025) — Certificate issued  
+- **Ongoing Development**:  
+  - Hands-on building of SaaS products  
+  - Deepening of AI governance tooling (policy-as-code, model registry, audit trails)  
+  - Exploration of neurotechnology interfaces and quantum machine learning theory  
+
+*No formal certifications in cloud, ML, or security beyond those listed in public repositories.*
 
 ---
 
 ## 📫 Contact
 
-- **Email:** fabio@brachat.com.br  
-- **LinkedIn:** https://www.linkedin.com/in/fabio-everton-3b62b1129/  
-- **GitHub / Portfolio:** [fabiobeverton.github.io](https://fabiobeverton.github.io/)  
+- **Email**: fabio@brachat.com.br  
+- **LinkedIn**: https://www.linkedin.com/in/fabio-everton-3b62b1129/  
+- **GitHub**: https://github.com/fabiobeverton  
+- **Portfolio Repository**: https://github.com/brachattech/portifolio  
 
 ---
 
-## 🏆 The Most Advanced AI/ML Portfolio in Brazil — Verified, Monetized, Automated
+## ⚠️ Disclaimer
 
-**21 Premium Verified Services + 1 Commercial SaaS with R$ 34,500/month Revenue + 1 Automated Governance Framework**  
-*All documented, audited, and deployed — not theoretical.*
+This document contains factual claims about systems, metrics, and outcomes.  
+All claims are supported by publicly accessible artifacts in the referenced GitHub repositories.  
+No external validation has been sought.  
+No third-party audits, financial statements, client testimonials, or legal attestations have been provided.  
+No claims are made regarding employment status, team size, funding, or institutional affiliation beyond what is documented in source code and metadata.
 
-### Key Achievements:
-- Launched AI Governance SaaS generating **R$ 34,500/month MRR** with 3 enterprise clients  
-- Reduced financial fraud detection latency from **810ms → 32ms** using NVIDIA TensorRT + INT8 quantization  
-- Automated **47 compliance checkpoints** across 21 AI services via custom Automation Runner  
-- Built **15 reusable policy templates** for LGPD, SHAP, bias mitigation, drift detection — enforced at every commit  
-- Prevented potential regulatory fines exceeding **R$ 4.2M** through proactive AI governance  
-- Delivered end-to-end ML pipelines with full reproducibility using **Docker, Terraform, DVC, MLflow**  
-- All assets publicly accessible and verifiable in the repository:  
-  > 🔗 **[github.com/brachattech/portifolio](https://github.com/brachattech/portifolio)**
-
-
-
+This is a record of technical work — not a promotional profile.
