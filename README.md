@@ -129,14 +129,5 @@ Intelligent electronic health record system for psychiatry, designed for efficie
 - All assets publicly accessible and verifiable in the repository:  
   > 🔗 **[github.com/brachattech/portifolio](https://github.com/brachattech/portifolio)**
 
-> This portfolio is not a resume. It is a product.  
-> You don’t need to believe me.  
-> **Go check the code. The logs. The metrics. The certificates. The revenue.**  
-> Everything is there. Nothing is hidden.
 
----
-
-### Summary
-
-Continuously building secure, scalable, innovation-driven digital solutions, combining hands-on SaaS creation, AI Governance, and DevSecOps, while consolidating authority in strategic sectors — **not by talking, but by shipping.**
 
