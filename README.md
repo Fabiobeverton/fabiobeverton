@@ -100,7 +100,7 @@ Intelligent electronic health record system for psychiatry, designed for efficie
 ## 📫 Contact
 
 - **Email:** fabio@brachat.com.br  
-- **LinkedIn:** [linkedin.com/in/fabio-everton-3b62b1129](https://www.linkedin.com/in/fabio-everton-3b62b1129)  
+- **LinkedIn:** https://www.linkedin.com/in/fabio-everton-3b62b1129/
 - **GitHub / Portfolio:** [fabiobeverton](https://fabiobeverton.github.io/)
 
 ---
